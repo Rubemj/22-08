@@ -535,6 +535,16 @@ a {
   .blog-section .post-entry:hover .post-thumbnail img, .blog-section .post-entry:focus .post-thumbnail img {
     opacity: .7; }
 
+.chip .img-chip{
+  
+  width: 300px;
+  padding: 0px;
+  top: 0;
+  left: 5;
+  height: 500;
+ 
+    }
+
 .footer-section {
   padding: 80px 0;
   background: #ffffff; }
@@ -583,12 +593,16 @@ a {
     .footer-section .subscription-form .btn {
       border-radius: 10px !important; }
   .footer-section .sofa-img {
-    position: absolute;
-    top: -200px;
+        position: absolute;
+    top: -40px;
     z-index: 1;
     right: 0; }
-    .footer-section .sofa-img img {
-      max-width: 380px; }
+    .footer-section .sofa-img .chip{
+      max-width:500px;
+       background-image: url(/images/chip.png)
+
+      }
+     
   .footer-section .links-wrap {
     margin-top: 0px; }
     @media (min-width: 992px) {
